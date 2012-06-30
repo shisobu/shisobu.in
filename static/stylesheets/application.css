@@ -4,6 +4,9 @@
         width: 100%;
         padding: 0 20px;
     }
+    #logo {
+        width: 250px;
+    }
 }
 
 body {
@@ -23,6 +26,7 @@ body {
     text-align: center;
 }
 #logo {
+    width: 100px;
     -webkit-animation-name: logo-rotate;
     -webkit-animation-iteration-count: 5;
     -webkit-animation-timing-function: linear;
