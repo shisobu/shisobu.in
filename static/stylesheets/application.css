@@ -1,18 +1,18 @@
 @charset 'utf-8';
 
 body {
+    color: #fff;
     background-color: #000;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 #main {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -200px;
+    width: 40%;
+    margin: 40px auto;
 }
 
 #main h1 {
     margin: 0;
+    text-align: center;
 }
