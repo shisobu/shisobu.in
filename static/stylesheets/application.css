@@ -16,3 +16,13 @@ body {
     margin: 0;
     text-align: center;
 }
+#logo {
+    -webkit-animation-name: logo-rotate;
+    -webkit-animation-iteration-count: 5;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 8s;
+}
+@-webkit-keyframes logo-rotate {
+    0% {-webkit-transform: rotateY(0) scale(1)}
+    100% {-webkit-transform: rotateY(360deg) scale(1)}
+}
