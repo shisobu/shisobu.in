@@ -1,4 +1,10 @@
 @charset 'utf-8';
+@media only screen and (max-device-width: 480px) {
+    #main {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
 
 body {
     color: #fff;
@@ -8,7 +14,7 @@ body {
 }
 
 #main {
-    width: 40%;
+    width: 480px;
     margin: 40px auto;
 }
 
