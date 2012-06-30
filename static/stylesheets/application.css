@@ -28,9 +28,9 @@ body {
 #logo {
     width: 100px;
     -webkit-animation-name: logo-rotate;
-    -webkit-animation-iteration-count: 5;
+    -webkit-animation-iteration-count: 100;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-duration: 8s;
+    -webkit-animation-duration: 100s;
 }
 @-webkit-keyframes logo-rotate {
     0% {-webkit-transform: rotateY(0) scale(1)}
