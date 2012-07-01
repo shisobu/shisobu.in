@@ -9,10 +9,14 @@
     }
 }
 
-body {
-    color: #fff;
-    background-color: #000;
+html {
+    background: none repeat scroll 0 0 #000000;
+    font-family: "ヒラギノ明朝 Pro W3", "細明朝体", "ＭＳ Ｐ明朝", serif;
     font-size: 14px;
+    color: #ffffff;
+}
+
+body {
     line-height: 1.6;
 }
 
@@ -24,6 +28,10 @@ body {
 #main h1 {
     margin: 0;
     text-align: center;
+}
+
+#main p {
+    margin: 15px 0;
 }
 #logo {
     width: 100px;
