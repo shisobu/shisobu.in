@@ -1,0 +1,29 @@
+@media only screen and (max-device-width: 480px) {
+    #main {
+        width: 100%;
+        padding: 0 20px;
+    }
+    #logo {
+        width: 250px;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    body {
+        line-height: 1.8;
+    }
+    #main {
+        -webkit-writing-mode: vertical-rl;
+        margin: 80px 0;
+        float: right;
+    }
+    #main h1 {
+        margin: 0 5em;
+    }
+    #main p {
+        margin: 0 0 0 2em;
+    }
+}
